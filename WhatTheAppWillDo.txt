@@ -1,0 +1,11 @@
+1) Go to Games From the Hub (Multi-Intent
+2) Have Many Actor Classs For Each App
+3) Pong Game
+4) Brickbreaker (Improved)
+5) Craps
+6) Connect 4
+7) Return to Hub from Games
+8) Sounds/Music Plays During Apps
+9) Scorekeeping in each Game
+10) Settings Menu
+11) Couple of Different settings to choose From
