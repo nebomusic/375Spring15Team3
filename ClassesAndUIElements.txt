@@ -19,15 +19,19 @@ UI Elements:
 
 -ButtonRoll
 
-Actors in Actor Class:
+Animation View Pong Actors:
 	-PongPaddle1
 	-PongPaddle2
 	-PongBall
+
+Animation View Brick Breaker:
 	-BrickBreakerPaddle
 	-ArrayListBricks
-	-BrickBreakerBall
+	-BrickBreakerBal
+Animation View Connect Four:
 	-2DArray
 		-Markers on 'if' Statement
+Animation View Craps:
 	-CrapsDice
 		-Let Will Work His Magic
 
