@@ -1,0 +1,34 @@
+UI Elements:
+
+-ButtonPong
+-ButtonBrickBreaker
+-ButtonCraps
+-ButtonConnectFour
+-ButtonSettings
+
+-RadioButtonMusic
+-RadioButtonRed
+-RadioButtonBlue
+-RadioButtonGreen
+
+-ButtonMenu
+-ButtonMenu
+-ButtonMenu
+-ButtonMenu
+-ButtonMenu
+
+-ButtonRoll
+
+Actors in Actor Class:
+	-PongPaddle1
+	-PongPaddle2
+	-PongBall
+	-BrickBreakerPaddle
+	-ArrayListBricks
+	-BrickBreakerBall
+	-2DArray
+		-Markers on 'if' Statement
+	-CrapsDice
+		-Let Will Work His Magic
+
+	
