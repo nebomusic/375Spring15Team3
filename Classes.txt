@@ -1,0 +1,11 @@
+Classes: 
+Actor 
+- Defines what the objects can do
+AnimationViewPong
+- Displays the animation for Pong
+AnimationViewBrickBreaker 
+- Displays the animation for Brick Breaker
+AnimationViewCraps 
+- Displays the animation for Craps
+AnimationViewConnect4 
+- Displays the animation for Connect 4
