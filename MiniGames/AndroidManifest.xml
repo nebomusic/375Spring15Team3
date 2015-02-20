@@ -22,6 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".PongActivity"
+            android:label="@string/title_activity_pong" >
+        </activity>
+        <activity
+            android:name=".BrickBreakerActivity"
+            android:label="@string/title_activity_brick_breaker" >
+        </activity>
     </application>
 
 </manifest>
