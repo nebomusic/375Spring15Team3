@@ -10,21 +10,17 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.minigames.MainActivity" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
-
     <TableRow
         android:id="@+id/tableRow1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/buttonPong"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:onClick = "handleClick"
+            android:text="Pong" />
 
     </TableRow>
 
@@ -34,10 +30,11 @@
         android:layout_height="wrap_content" >
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/buttonBrick"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:onClick = "handleClick"
+            android:text="Brick Breaker" />
 
     </TableRow>
 
@@ -47,10 +44,11 @@
         android:layout_height="wrap_content" >
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/buttonConnect"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:onClick = "handleClick"
+            android:text="Connect 4" />
 
     </TableRow>
 
@@ -60,10 +58,11 @@
         android:layout_height="wrap_content" >
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/buttonCraps"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:onClick = "handleClick"
+            android:text="Craps" />
 
     </TableRow>
 
@@ -73,10 +72,11 @@
         android:layout_height="wrap_content" >
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/buttonSettings"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:onClick = "handleClick"
+            android:text="Settings" />
 
     </TableRow>
 

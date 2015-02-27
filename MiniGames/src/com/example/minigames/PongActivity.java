@@ -1,9 +1,15 @@
 package com.example.minigames;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.hardware.Sensor;
+import android.hardware.SensorEvent;
+import android.hardware.SensorEventListener;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.MotionEvent;
+import android.view.View;
 
 public class PongActivity extends Activity {
 
@@ -12,6 +18,11 @@ public class PongActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_pong);
 	}
+	public void onResume() {
+		super.onResume();
+		setContentView(R.layout.activity_pong);
+	
+	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -19,16 +30,10 @@ public class PongActivity extends Activity {
 		getMenuInflater().inflate(R.menu.pong, menu);
 		return true;
 	}
-
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		// Handle action bar item clicks here. The action bar will
-		// automatically handle clicks on the Home/Up button, so long
-		// as you specify a parent activity in AndroidManifest.xml.
-		int id = item.getItemId();
-		if (id == R.id.action_settings) {
-			return true;
-		}
-		return super.onOptionsItemSelected(item);
+	
+	public void handleClick(View v) {
+		Intent intent = new Intent(this, MainActivity.class);
+		startActivity(intent);
 	}
+
 }
