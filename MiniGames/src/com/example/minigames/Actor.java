@@ -7,6 +7,7 @@ package com.example.minigames;
 	import android.graphics.Point;
 	import android.graphics.drawable.BitmapDrawable;
 
+<<<<<<< HEAD
 	public class Actor {
 		private Point p;
 		private int c;
@@ -183,3 +184,10 @@ package com.example.minigames;
 		
 		
 	
+=======
+
+
+
+} // end class Actor
+
+>>>>>>> e0c66295578758c4121dfe606d9623971d62e62a
